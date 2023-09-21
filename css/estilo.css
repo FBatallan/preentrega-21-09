@@ -1,216 +1,204 @@
 /* Font Sitio */
-
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Navbar */
-
 .logoFunko {
-    width: 100px;
+  width: 100px;
 }
 
 .miFondo {
-    background-color: rgb(236, 234, 234);
+  background-color: rgb(236, 234, 234);
 }
 
 header {
-    border-top: solid 20px #c1101a;
+  border-top: solid 20px #c1101a;
 }
 
 .miLink {
-    font-size: 25px;
+  font-size: 25px;
 }
-
 .miLink:hover {
-    background-color: #c1101a;
-    color: #ffff;
+  background-color: #c1101a;
+  color: white;
 }
 
 /* Slide */
-
 .carousel-inner {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .imageneSlide {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Seccion de texto index */
-
 #about {
-    text-align: center;
-    margin: 50px;
+  text-align: center;
+  margin: 50px;
+}
+
+/* Seccion de texto index */
+#about {
+  text-align: center;
+  margin: 50px;
 }
 
 /* Cartas index */
 .card {
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .card-text {
-    text-align: center;
+  text-align: center;
 }
 
 /* footer */
-
 .pie {
-    position: sticky;
-    background-color: #c1101a;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 40px;
+  position: sticky;
+  background-color: #c1101a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 40px;
 }
-
 .pie ul li {
-    display: inline-block;
-    text-align: center;
+  display: inline-block;
+  text-align: center;
 }
-
 .pie li {
-    list-style: none;
-    padding-right: 10px;
+  list-style: none;
+  padding-right: 10px;
 }
-
 
 /* Seccion Productos */
-
 .tituloPrincipal {
-    background-color: #da434b;
-    color: rgb(31, 31, 31);
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+  background-color: #da434b;
+  color: rgb(31, 31, 31);
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
 }
-
 .tituloPrincipal h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .estiloBtn {
-    background-color: #da434b;
-    color: white;
+  background-color: #da434b;
+  color: white;
 }
-
 .estiloBtn:hover {
-    background-color: rgb(255, 255, 150);
-    color: black;
+  background-color: rgb(255, 255, 150);
+  color: black;
 }
 
 /* Seccion Ediciones */
-
 .conteiner-img {
-    display: flex;
-    align-items: center;
-    margin: 15px auto;
-    width: 80%;
-    border: solid black;
-    border-radius: 15px;
-    padding: 12px;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  width: 80%;
+  border: solid black;
+  border-radius: 15px;
+  padding: 12px;
 }
 
 .imgEdi {
-    max-width: 50%;
-    height: auto;
+  max-width: 50%;
+  height: auto;
 }
 
 .txtEdi {
-    font-weight: bold;
-    margin: 10px 15px 12px 20px;
+  font-weight: bold;
+  margin: 10px 15px 12px 20px;
 }
-
 .txtEdi h2 {
-    font-weight: bold;
-    font-size: 40px;
+  font-weight: bold;
+  font-size: 40px;
 }
-
 .txtEdi p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* Ubicacion */
-
 iframe {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .ubiTxt {
-    margin: 12px 15px 12px 14px;
-    text-align: center;
+  margin: 12px 15px 12px 14px;
+  text-align: center;
 }
-
 .ubiTxt p {
-    text-align: center;
+  text-align: center;
 }
-
 .ubiTxt h3 {
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: underline;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
 }
-
 .ubiTxt h4 {
-    font-weight: bold;
+  font-weight: bold;
 }
-
 .ubiTxt li {
-    list-style: none;
-    font-weight: bold;
-    margin-top: 10px;
+  list-style: none;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 /* seccion formulario de contacto */
-
 form {
-    width: 100%;
-    max-width: 500px;
-    margin: 15px auto;
+  width: 100%;
+  max-width: 500px;
+  margin: 15px auto;
 }
 
 .datosForm {
-    margin-bottom: 3%;
+  margin-bottom: 3%;
 }
 
 label {
-    font-size: 20px;
-    font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-input, textarea {
-    width: 100%;
-    padding: 5px;
-    border: 2px solid #640000;
-    border-radius: 8px;
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #640000;
+  border-radius: 8px;
 }
 
-input[type="text"], input[type="email"] {
-    height: 45px;
+input[type=text], input[type=email] {
+  height: 45px;
 }
 
 textarea {
-    height: 100px;
+  height: 100px;
 }
 
 form button {
-    background-color: rgb(255, 255, 150);
-    color: black;
-    font-size: 20px;
-    padding: 5px 10px;
-    border: solid 2px black;
-    border-radius: 12px;
-    cursor: pointer;
+  background-color: rgb(255, 255, 150);
+  color: black;
+  font-size: 20px;
+  padding: 5px 10px;
+  border: solid 2px black;
+  border-radius: 12px;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
-    form {
-        width: 100%;
-    }
+  form {
+    width: 100%;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,22 @@
+/* footer */
+
+.pie {
+    position: sticky;
+    background-color: #c1101a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+
+    ul li {
+        display: inline-block;
+        text-align: center;
+    }
+
+    li {
+        list-style: none;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,22 @@
+/* Navbar */
+
+.logoFunko {
+    width: 100px;
+}
+
+.miFondo {
+    background-color: rgb(236, 234, 234);
+}
+
+header {
+    border-top: solid 20px #c1101a;
+}
+
+.miLink {
+    font-size: 25px;
+
+    &:hover {
+        background-color: #c1101a;
+        color: #ffff;
+    }
+}

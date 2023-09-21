@@ -1,0 +1,23 @@
+/* Seccion Productos */
+
+.tituloPrincipal {
+    background-color: #da434b;
+    color: rgb(31, 31, 31);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+.estiloBtn {
+    background-color: #da434b;
+    color: white;
+
+    &:hover {
+        background-color: rgb(255, 255, 150);
+        color: black;
+    }
+}
