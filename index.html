@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cueva Funko</title>
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <header class="navbar navbar-expand-lg miFondo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logoFunko" src="img/funko-pop.png" alt="Logo de Funko Pop">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item miLink">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item miLink">
+                        <a class="nav-link" href="html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item miLink">
+                        <a class="nav-link" href="html/ediciones.html">Ediciones</a>
+                    </li>
+                    <li class="nav-item miLink">
+                        <a class="nav-link" href="html/ubicacion.html">Ubicacion</a>
+                    </li>
+                    <li class="nav-item miLink">
+                        <a class="nav-link" href="html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/funkoslide1.png" class="imageneSlide" alt="Logo de funko pop celeste">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/funkoslide2.jpg" class="imageneSlide" alt="Imagen con muchos funkos">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/funkoslide3.jpg" class="imageneSlide" alt="imagenes de funkos mario y luigi">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <main>
+        <section id="about">
+            <h2><b>Bienvenidos a Cueva Funko</b></h2>
+            <p>En el emocionante mundo de los coleccionables Funko Pop, existe un lugar donde los fanáticos encuentran
+                la verdadera esencia de la diversión y la nostalgia. Te damos la bienvenida a "Funko Cueva Funko", tu
+                destino definitivo para descubrir y adquirir esas figuras coleccionables que te hacen revivir tus
+                momentos favoritos.</p>
+
+            <h2><b>Calidad Garantizada</b></h2>
+            <p>Nos enorgullece ofrecer productos 100% auténticos y de la más alta calidad. Cada figura Funko Pop que
+                vendemos ha sido cuidadosamente seleccionada para asegurarnos de que esté en excelentes condiciones y
+                con su caja original en perfecto estado. No comprometemos la integridad de tus coleccionables.</p>
+
+        </section>
+    </main>
+    <!-- Cartas Simples -->
+    <div class="row mt-5">
+
+        <div class="col-xl-3 col-md-6 col-sm-12"> 
+            <div class="card mt-5">
+                <img src="img/funkocharizard.jpg" class="card-img-top" alt="Imagen de Funko de Charizard">
+                <div class="card-body">
+                    <h5 class="card-tittle">Funko #843 Charizard</h5>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12"> 
+            <div class="card mt-5">
+                <img src="img/funkomandalorian.jpg" class="card-img-top" alt="Imagen de Funko de Mandalorian con Grogu">
+                <div class="card-body">
+                    <h5 class="card-tittle">Funko #402 Mandalorian Con Grogu</h5>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12"> 
+            <div class="card mt-5">
+                <img src="img/funkosasuke.jpg" class="card-img-top img-fluid" alt="Imagen de Funko de Thor">
+                <div class="card-body">
+                    <h5 class="card-tittle">Funko #698 Sasuke</h5>
+                </div>
+            </div>  
+        </div>
+
+        <div class="col-xl-3 col-md-6 col-sm-12"> 
+            <div class="card mt-5">
+                <img src="img/funkoraiden.jpg" class="card-img-top" alt="Imagen de funko de charizard">
+                <div class="card-body">
+                    <h5 class="card-tittle">Funko #538 Raiden</h5>
+                </div>
+            </div>  
+        </div>
+
+
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="pie">
+        <p><u>Tienda de Funko Pop - Todos los Derechos Reservados</u></p>
+        <p>Contacto: info@tiendafunkopop.com</p>
+        <p>Síguenos en las redes sociales:</p>
+        <ul>
+            <li><a class="Redes" href="https://facebook.com/originalfunko" target="_blank">Facebook</a></li>
+            <li><a class="Redes" href="https://twitter.com/originalfunko" target="_blank">Twitter</a></li>
+            <li><a class="Redes" href="https://instagram.com/originalfunko" target="_blank">Instagram</a></li>
+        </ul>
+    </footer>
+
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
